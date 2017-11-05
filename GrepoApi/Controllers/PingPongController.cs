@@ -34,7 +34,14 @@ namespace GrepoApi.Controllers
             var g = Client.GetGrain<IPingGrain>(Guid.Empty);
             return await g.PongAsync(text);
         }
-    
+        [Route("pong/store/{text}")]
+        [HttpGet]
+        public async Task<String> StorePong(String text)
+        {
+            var g = Client.GetGrain<IPongStorageGrain>(Guid.Empty);
+            return await g.PongAsync(text);
+        }
+
 
 
     }

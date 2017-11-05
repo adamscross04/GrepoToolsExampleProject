@@ -114,7 +114,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IPingInterface.cs" />
+    <Compile Include="IPingGrain.cs" />
+    <Compile Include="IPongStorageGrain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
