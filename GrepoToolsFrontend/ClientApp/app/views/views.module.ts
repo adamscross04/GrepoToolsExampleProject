@@ -4,6 +4,7 @@ import { MainComponent } from './main/main.component';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from '../material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { PingPongClientService } from '../ping-pong-client.service';
 
 @NgModule({
   imports: [
@@ -15,6 +16,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MaterialModule, 
     FlexLayoutModule
   ],
-  declarations: [MainComponent]
+  declarations: [MainComponent],
+  providers: [
+    PingPongClientService
+  ]
 })
 export class ViewsModule { }
