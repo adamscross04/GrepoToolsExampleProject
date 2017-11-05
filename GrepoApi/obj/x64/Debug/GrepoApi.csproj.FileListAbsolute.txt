@@ -80,3 +80,15 @@ c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\Gre
 c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoApi\obj\x64\Debug\GrepoApi.csprojResolveAssemblyReference.cache
 c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoApi\obj\x64\Debug\GrepoApi.exe
 c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoApi\obj\x64\Debug\GrepoApi.pdb
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.Owin.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.WebApi.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.WebApi.Owin.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\Microsoft.Orleans.ServiceFabric.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\OrleansRuntime.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.xml
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.Owin.xml
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.WebApi.xml
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.WebApi.Owin.xml
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\Microsoft.Orleans.ServiceFabric.xml
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\OrleansRuntime.xml

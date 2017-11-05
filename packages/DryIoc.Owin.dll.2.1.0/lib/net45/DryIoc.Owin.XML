@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DryIoc.Owin</name>
+    </assembly>
+    <members>
+        <member name="T:DryIoc.Owin.DryIocOwin">
+            <summary>Inserts DryIoc container into OWIN pipeline. Enables to Use middleware registered in DryIoc container.</summary>
+        </member>
+        <member name="F:DryIoc.Owin.DryIocOwin.ScopedContainerKeyInContext">
+            <summary>Key of scoped container stored in <see cref="T:Microsoft.Owin.IOwinContext"/>.</summary>
+        </member>
+        <member name="M:DryIoc.Owin.DryIocOwin.UseDryIocOwinMiddleware(Owin.IAppBuilder,DryIoc.IContainer,System.Action{DryIoc.IContainer},DryIoc.IScopeContext)">
+            <summary>Inserts scoped container into pipeline and stores scoped container in context.
+            
+            Optionally registers instances in scope with provided action.</summary>
+            <param name="app">App builder</param> <param name="container">Container</param>
+            <param name="registerInScope">(optional) Action for registering something in scope before setting scope into context.</param>
+            <param name="scopeContext">(optional) Specific scope context to use. 
+            If not specified using current container context. <see cref="T:DryIoc.AsyncExecutionFlowScopeContext"/> is default in .NET 4.5.</param>
+        </member>
+        <member name="M:DryIoc.Owin.DryIocOwin.GetDryIocScopedContainer(Microsoft.Owin.IOwinContext)">
+            <summary>Retrieves scope container stored in OWIN context.</summary>
+            <param name="context"></param> <returns>Scoped container.</returns>
+        </member>
+    </members>
+</doc>

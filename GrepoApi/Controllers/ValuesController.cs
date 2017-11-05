@@ -4,15 +4,23 @@ using System.Web.Http;
 namespace GrepoApi.Controllers
 {
     [ServiceRequestActionFilter]
+    [RoutePrefix("Values")]
     public class ValuesController : ApiController
     {
-        // GET api/values 
+        // GET api/value
+
+        [HttpGet]
+
+        [Route("")]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5 
+        [HttpGet]
+
+        [Route("{id}")]
         public string Get(int id)
         {
             return "value";

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DryIoc.WebApi.Owin</name>
+    </assembly>
+    <members>
+        <member name="T:DryIoc.WebApi.Owin.DryIocWebApiOwin">
+            <summary>Set of extension methods for gluing WebApi and OWIN together.</summary>
+        </member>
+        <member name="M:DryIoc.WebApi.Owin.DryIocWebApiOwin.UseDryIocWebApi(Owin.IAppBuilder,System.Web.Http.HttpConfiguration)">
+            <summary>Inserts delegating handler that uses OWIN scoped container for WebApi dependency scope.</summary>
+            <param name="app">App Builder</param> <param name="config"></param> <returns>App Builder</returns>
+        </member>
+        <member name="T:DryIoc.WebApi.Owin.SetRequestDependencyScopeHandler">
+            <summary>Inserts <see cref="T:DryIoc.WebApi.DryIocDependencyScope"/>from OWIN context to Request properties.</summary>
+        </member>
+        <member name="M:DryIoc.WebApi.Owin.SetRequestDependencyScopeHandler.SendAsync(System.Net.Http.HttpRequestMessage,System.Threading.CancellationToken)">
+            <summary>Inserts <see cref="T:DryIoc.WebApi.DryIocDependencyScope"/>from OWIN context to Request properties.</summary>
+            <param name="request">Target request</param> <param name="cancellationToken"></param>
+            <returns>Returns continuation.</returns>
+        </member>
+    </members>
+</doc>
