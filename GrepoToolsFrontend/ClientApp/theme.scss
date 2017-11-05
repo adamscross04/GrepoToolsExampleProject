@@ -1,0 +1,305 @@
+@import '../node_modules/@angular/material/theming';
+@include mat-core();
+
+
+
+
+$md-orange: (
+  50 : #fceae4,
+  100 : #f8cabb,
+  200 : #f4a78e,
+  300 : #f08461,
+  400 : #ec693f,
+  500 : #e94f1d,
+  600 : #e6481a,
+  700 : #e33f15,
+  800 : #df3611,
+  900 : #d9260a,
+  A100 : #ffffff,
+  A200 : #ffd5d0,
+  A400 : #ffa79d,
+  A700 : #ff9084,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #000000,
+      400 : #000000,
+      500 : #ffffff,
+      600 : #ffffff,
+      700 : #ffffff,
+      800 : #ffffff,
+      900 : #ffffff,
+      A100 : #000000,
+      A200 : #000000,
+      A400 : #000000,
+      A700 : #000000,
+  )
+);
+
+$md-amber: (
+  50 : #fdf0e3,
+  100 : #fbdab9,
+  200 : #f8c18b,
+  300 : #f5a85c,
+  400 : #f29639,
+  500 : #f08316,
+  600 : #ee7b13,
+  700 : #ec7010,
+  800 : #e9660c,
+  900 : #e55306,
+  A100 : #ffffff,
+  A200 : #ffe5da,
+  A400 : #ffc1a7,
+  A700 : #ffaf8d,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #000000,
+      400 : #000000,
+      500 : #000000,
+      600 : #000000,
+      700 : #000000,
+      800 : #000000,
+      900 : #ffffff,
+      A100 : #000000,
+      A200 : #000000,
+      A400 : #000000,
+      A700 : #000000,
+  )
+);
+
+$md-satsum: (
+  50 : #fdece3,
+  100 : #f9d1b9,
+  200 : #f6b28b,
+  300 : #f2935d,
+  400 : #ef7b3a,
+  500 : #ec6417,
+  600 : #ea5c14,
+  700 : #e75211,
+  800 : #e4480d,
+  900 : #df3607,
+  A100 : #ffffff,
+  A200 : #ffdcd4,
+  A400 : #ffb1a1,
+  A700 : #ff9c88,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #000000,
+      400 : #000000,
+      500 : #000000,
+      600 : #ffffff,
+      700 : #ffffff,
+      800 : #ffffff,
+      900 : #ffffff,
+      A100 : #000000,
+      A200 : #000000,
+      A400 : #000000,
+      A700 : #000000,
+  )
+);
+
+$md-chilli: (
+  50 : #fce5e3,
+  100 : #f7beba,
+  200 : #f2938c,
+  300 : #ed675d,
+  400 : #e9473b,
+  500 : #e52618,
+  600 : #e22215,
+  700 : #de1c11,
+  800 : #da170e,
+  900 : #d30d08,
+  A100 : #fffcfc,
+  A200 : #ffcac9,
+  A400 : #ff9896,
+  A700 : #ff7f7d,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #000000,
+      400 : #ffffff,
+      500 : #ffffff,
+      600 : #ffffff,
+      700 : #ffffff,
+      800 : #ffffff,
+      900 : #ffffff,
+      A100 : #000000,
+      A200 : #000000,
+      A400 : #000000,
+      A700 : #000000,
+  )
+);
+
+$md-grey: (
+  50 : #e8e8e7,
+  100 : #c5c5c4,
+  200 : #9e9e9d,
+  300 : #777776,
+  400 : #595958,
+  500 : #3c3c3b,
+  600 : #363635,
+  700 : #2e2e2d,
+  800 : #272726,
+  900 : #1a1a19,
+  A100 : #f2f270,
+  A200 : #eeee41,
+  A400 : #fcfc00,
+  A700 : #e3e300,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #ffffff,
+      400 : #ffffff,
+      500 : #ffffff,
+      600 : #ffffff,
+      700 : #ffffff,
+      800 : #ffffff,
+      900 : #ffffff,
+      A100 : #000000,
+      A200 : #000000,
+      A400 : #000000,
+      A700 : #000000,
+  )
+);
+
+$md-pebble: (
+  50 : #f1f2f3,
+  100 : #dddee2,
+  200 : #c6c8ce,
+  300 : #afb2ba,
+  400 : #9ea2ac,
+  500 : #8d919d,
+  600 : #858995,
+  700 : #7a7e8b,
+  800 : #707481,
+  900 : #5d626f,
+  A100 : #e1e8fe,
+  A200 : #b0c4fb,
+  A400 : #7a9dff,
+  A700 : #608aff,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #000000,
+      400 : #000000,
+      500 : #000000,
+      600 : #000000,
+      700 : #ffffff,
+      800 : #ffffff,
+      900 : #ffffff,
+      A100 : #000000,
+      A200 : #000000,
+      A400 : #000000,
+      A700 : #000000,
+  )
+);
+
+$md-slate: (
+  50 : #e8e9ec,
+  100 : #c7c7ce,
+  200 : #a1a2ae,
+  300 : #7b7c8e,
+  400 : #5f6075,
+  500 : #43445d,
+  600 : #3d3e55,
+  700 : #34354b,
+  800 : #2c2d41,
+  900 : #1e1f30,
+  A100 : #777fff,
+  A200 : #4450ff,
+  A400 : #1120ff,
+  A700 : #000ff6,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #ffffff,
+      400 : #ffffff,
+      500 : #ffffff,
+      600 : #ffffff,
+      700 : #ffffff,
+      800 : #ffffff,
+      900 : #ffffff,
+      A100 : #000000,
+      A200 : #ffffff,
+      A400 : #ffffff,
+      A700 : #ffffff,
+  )
+);
+
+$md-navy: (
+  50 : #e2e3e6,
+  100 : #b8b9c1,
+  200 : #888b97,
+  300 : #585d6d,
+  400 : #353a4e,
+  500 : #11172f,
+  600 : #0f142a,
+  700 : #0c1123,
+  800 : #0a0d1d,
+  900 : #050712,
+  A100 : #546aff,
+  A200 : #213eff,
+  A400 : #001fed,
+  A700 : #001bd4,
+  contrast: (
+      50 : #000000,
+      100 : #000000,
+      200 : #000000,
+      300 : #ffffff,
+      400 : #ffffff,
+      500 : #ffffff,
+      600 : #ffffff,
+      700 : #ffffff,
+      800 : #ffffff,
+      900 : #ffffff,
+      A100 : #ffffff,
+      A200 : #ffffff,
+      A400 : #ffffff,
+      A700 : #ffffff,
+  )
+);
+
+
+
+$main-app-primary: mat-palette($md-navy);
+$main-app-accent:  mat-palette($md-orange);
+$main-app-warn:  mat-palette($md-chilli);
+$main-app-theme:   mat-light-theme($main-app-primary, $main-app-accent, $main-app-warn);
+
+// Sets Theme
+@include angular-material-theme($main-app-theme);
+
+$main-dark-app-primary: mat-palette($md-orange);
+$main-dark-app-accent:  mat-palette($md-pebble);
+$main-dark-app-warn:  mat-palette($md-chilli);
+$main-dark-app-theme:   mat-dark-theme($main-dark-app-primary, $main-dark-app-accent, $main-dark-app-warn);
+
+.make-dark{
+  @include angular-material-theme($main-dark-app-theme);
+}
+
+// Change the fonts
+// @include angular-material-typography(mat-typography-config(  $font-family:   'sofia-pro, "Helvetica Neue", sans-serif',
+// $display-4:     mat-typography-level(112px, 112px, 400),
+// $display-3:     mat-typography-level(56px, 56px, 400),
+// $display-2:     mat-typography-level(45px, 48px, 400),
+// $display-1:     mat-typography-level(34px, 40px, 400),
+// $headline:      mat-typography-level(24px, 32px, 400),
+// $title:         mat-typography-level(20px, 32px, 400),
+// $subheading-2:  mat-typography-level(16px, 28px, 400),
+// $subheading-1:  mat-typography-level(15px, 24px, 400),
+// $body-2:        mat-typography-level(14px, 24px, 500),
+// $body-1:        mat-typography-level(14px, 20px, 300),
+// $caption:       mat-typography-level(12px, 20px, 400),
+// $button:        mat-typography-level(14px, 14px, 500),
+// // Line-height must be unit-less fraction of the font-size.
+// $input:         mat-typography-level(16px, 1.125, 400)));

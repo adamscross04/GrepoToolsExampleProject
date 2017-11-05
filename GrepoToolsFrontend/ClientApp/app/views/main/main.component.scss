@@ -1,0 +1,9 @@
+@import '~@angular/material/theming';
+@import "ClientApp/theme.scss";
+
+.myClass {
+    background-color: mat-color($main-app-primary);
+    color: mat-color($main-app-primary, "500-contrast", .7);
+    color: mat-color($main-app-primary,200, .7);
+  
+}
