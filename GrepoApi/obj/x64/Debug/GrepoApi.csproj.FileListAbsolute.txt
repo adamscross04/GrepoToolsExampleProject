@@ -92,3 +92,6 @@ c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\Gre
 c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\DryIoc.WebApi.Owin.xml
 c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\Microsoft.Orleans.ServiceFabric.xml
 c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\OrleansRuntime.xml
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\GrepoGrainInterfaces.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\GrepoGrainInterfaces.pdb
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoApi\bin\x64\Debug\GrepoGrainInterfaces.dll.config

@@ -114,12 +114,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="PingGrain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrepoGrainInterfaces\GrepoGrainInterfaces.csproj">
+      <Project>{62884303-c070-4b75-8d47-b089f2c4901b}</Project>
+      <Name>GrepoGrainInterfaces</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Orleans.OrleansCodeGenerator.Build.1.5.2\build\Microsoft.Orleans.OrleansCodeGenerator.Build.targets" Condition="Exists('..\packages\Microsoft.Orleans.OrleansCodeGenerator.Build.1.5.2\build\Microsoft.Orleans.OrleansCodeGenerator.Build.targets')" />

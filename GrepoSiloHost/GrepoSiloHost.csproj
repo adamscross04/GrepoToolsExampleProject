@@ -251,6 +251,16 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.1.1.0\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GrepoGrainInterfaces\GrepoGrainInterfaces.csproj">
+      <Project>{62884303-c070-4b75-8d47-b089f2c4901b}</Project>
+      <Name>GrepoGrainInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GrepoGrains\GrepoGrains.csproj">
+      <Project>{3bdb0f78-f90e-42fa-b654-9d755b7d0520}</Project>
+      <Name>GrepoGrains</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Orleans.OrleansHost.1.5.2\build\Microsoft.Orleans.OrleansHost.targets" Condition="Exists('..\packages\Microsoft.Orleans.OrleansHost.1.5.2\build\Microsoft.Orleans.OrleansHost.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

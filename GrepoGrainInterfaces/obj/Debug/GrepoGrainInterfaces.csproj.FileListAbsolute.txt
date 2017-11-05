@@ -31,3 +31,7 @@ c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\Gre
 c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoGrainInterfaces\bin\Debug\System.Reflection.Metadata.xml
 c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoGrainInterfaces\obj\Debug\GrepoGrainInterfaces.csprojResolveAssemblyReference.cache
 c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoGrainInterfaces\bin\Debug\GrepoGrainInterfaces.dll.config
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoGrainInterfaces\bin\Debug\GrepoGrainInterfaces.pdb
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoGrainInterfaces\obj\Debug\GrepoGrainInterfaces.dll
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoGrainInterfaces\obj\Debug\GrepoGrainInterfaces.pdb
+c:\Users\tw2pl\OneDrive\Documents\Visual Studio 2017\Projects\ExampleProject\GrepoGrainInterfaces\obj\Debug\GrepoGrainInterfaces.orleans.g.cs
