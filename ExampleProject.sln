@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "GrepoApp", "GrepoApp\GrepoApp.sfproj", "{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrepoSiloHost", "GrepoSiloHost\GrepoSiloHost.csproj", "{2D68CE99-BB1F-4594-AEA8-4BEB113266A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrepoApi", "GrepoApi\GrepoApi.csproj", "{3BE5C546-6CDC-441B-A930-218A2EEC1E84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrepoGrains", "GrepoGrains\GrepoGrains.csproj", "{3BDB0F78-F90E-42FA-B654-9D755B7D0520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrepoGrainInterfaces", "GrepoGrainInterfaces\GrepoGrainInterfaces.csproj", "{62884303-C070-4B75-8D47-B089F2C4901B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Debug|x64.ActiveCfg = Debug|x64
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Debug|x64.Build.0 = Debug|x64
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Debug|x64.Deploy.0 = Debug|x64
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Release|Any CPU.ActiveCfg = Release|x64
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Release|x64.ActiveCfg = Release|x64
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Release|x64.Build.0 = Release|x64
+		{FFE0917A-9B49-4950-8F9F-0BC612FA5F63}.Release|x64.Deploy.0 = Release|x64
+		{2D68CE99-BB1F-4594-AEA8-4BEB113266A5}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{2D68CE99-BB1F-4594-AEA8-4BEB113266A5}.Debug|x64.ActiveCfg = Debug|x64
+		{2D68CE99-BB1F-4594-AEA8-4BEB113266A5}.Debug|x64.Build.0 = Debug|x64
+		{2D68CE99-BB1F-4594-AEA8-4BEB113266A5}.Release|Any CPU.ActiveCfg = Release|x64
+		{2D68CE99-BB1F-4594-AEA8-4BEB113266A5}.Release|x64.ActiveCfg = Release|x64
+		{2D68CE99-BB1F-4594-AEA8-4BEB113266A5}.Release|x64.Build.0 = Release|x64
+		{3BE5C546-6CDC-441B-A930-218A2EEC1E84}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{3BE5C546-6CDC-441B-A930-218A2EEC1E84}.Debug|x64.ActiveCfg = Debug|x64
+		{3BE5C546-6CDC-441B-A930-218A2EEC1E84}.Debug|x64.Build.0 = Debug|x64
+		{3BE5C546-6CDC-441B-A930-218A2EEC1E84}.Release|Any CPU.ActiveCfg = Release|x64
+		{3BE5C546-6CDC-441B-A930-218A2EEC1E84}.Release|x64.ActiveCfg = Release|x64
+		{3BE5C546-6CDC-441B-A930-218A2EEC1E84}.Release|x64.Build.0 = Release|x64
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Debug|x64.Build.0 = Debug|Any CPU
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Release|x64.ActiveCfg = Release|Any CPU
+		{3BDB0F78-F90E-42FA-B654-9D755B7D0520}.Release|x64.Build.0 = Release|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Debug|x64.Build.0 = Debug|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Release|x64.ActiveCfg = Release|Any CPU
+		{62884303-C070-4B75-8D47-B089F2C4901B}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

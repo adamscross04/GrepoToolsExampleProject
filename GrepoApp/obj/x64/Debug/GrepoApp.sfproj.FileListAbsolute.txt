@@ -1,0 +1,2 @@
+c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoApp\bin\Debug\GrepoApp.config
+c:\users\tw2pl\onedrive\documents\visual studio 2017\Projects\ExampleProject\GrepoApp\obj\x64\Debug\GrepoApp.sfprojResolveAssemblyReference.cache
